@@ -19,6 +19,7 @@
   border-right: #808080 1px solid;
   border-left: #FFFFFF 1px solid;
   border-bottom: #808080 1px solid;
+  user-select: none;
 }
 
 .cell.pressed {
