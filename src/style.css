@@ -25,3 +25,13 @@
 .cell.pressed {
   border-color: #c0c0c0;
 }
+
+.cell.opened {
+  border-color: #808080;
+}
+
+
+/* debug mode */
+.cell[has-bomb="true"] {
+  border-color: red;
+}
