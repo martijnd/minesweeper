@@ -20,6 +20,9 @@
   border-left: #FFFFFF 1px solid;
   border-bottom: #808080 1px solid;
   user-select: none;
+  font-size: .5rem;
+  display: grid;
+  place-items: center;
 }
 
 .cell.pressed {
@@ -32,6 +35,6 @@
 
 
 /* debug mode */
-.cell[has-bomb="true"] {
+/* .cell[data-has-bomb="true"] {
   border-color: red;
-}
+} */
