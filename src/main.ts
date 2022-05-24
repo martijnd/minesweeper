@@ -5,7 +5,6 @@ const app = document.querySelector<HTMLDivElement>('#app')!
 const BOMBS_COUNT = 10;
 const ROWS = 10;
 const COLS = 10;
-const CELL_COUNT = ROWS * COLS;
 
 const bombIndexes = new Set();
 while (bombIndexes.size !== BOMBS_COUNT) {
