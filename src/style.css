@@ -1,0 +1,26 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background-color: #2c3e50;
+  min-height: 100vh;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(10, 12px);
+}
+
+.cell {
+  height: 10px;
+  background-color: #C0C0C0;
+  border-top: #FFFFFF 1px solid;
+  border-right: #808080 1px solid;
+  border-left: #FFFFFF 1px solid;
+  border-bottom: #808080 1px solid;
+}
+
+.cell.pressed {
+  border-color: #c0c0c0;
+}
